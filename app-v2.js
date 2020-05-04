@@ -12,7 +12,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 document.write('<script src="https://mengxin666.github.io/js/DPlayer.min.js"></script>');
 document.write('<script src="https://mengxin666.github.io/js/flv.min.js"></script>');
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="https://www.mdui.org/source/dist/css/mdui.min.css?v=0.4.3">');
+document.write('<link rel="stylesheet" href="https://mengxin666.github.com/css/mdui.min.css">');
 // markdown支持
 document.write('<script src="https://mengxin666.github.io/js/markdown-it.min.js"></script>');
 document.write('<style>.mdui-container {max-width: 980px;} .zgh-item {margin: 20px -8px 0 !important;padding: 15px !important;border-radius: 5px;-webkit-box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);background-color: #fff;} .mdui-toolbar {width: auto;margin-top: 30px !important;} .mdui-toolbar > a:last-child{opacity: 1;background-color: #1e89f2;color: #ffff;} .mdui-toolbar > a{padding: 0 16px;line-height: 30px;border-radius: 30px;border: 1px solid #eee;} .mdui-toolbar > *{padding: 0 6px;margin: 0 2px;opacity: .5;}</style>');
