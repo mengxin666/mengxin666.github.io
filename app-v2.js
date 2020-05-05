@@ -349,7 +349,7 @@ function file_video(path){
         <i class="mdui-icon material-icons">&#xe039;</i>外部播放器播放<i class="mdui-icon material-icons">&#xe5cf;</i>
       </button>
       <ul class="mdui-menu" id="player-items">${player_items}</ul>`;
-	var content = `
+	const content = `
 <div class="mdui-container-fluid">
 	<br>
 	<div id="dplayer" class="mdui-video-fluid mdui-center">
