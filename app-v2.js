@@ -33,6 +33,16 @@ function init(){
 	<div id="content" class="zgh-item"> </div>
 	<div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
 </div>
+<div id="updown"> 
+<div class="sidebar_wo" id="leimu" style="cursor:pointer">
+<img src="https://tanyaodan.com/img/leimu_1.png" alt="雷姆" onmouseover="this.src='https://tanyaodan.com/img/leimu_2.png'" onmouseout="this.src='https://tanyaodan.com/img/leimu_1.png'" id="audioBtn">
+</div>
+<div class="sidebar_wo" id="lamu" style="cursor:pointer">
+<img src="https://tanyaodan.com/img/lamu_1.png" alt="雷姆" onmouseover="this.src='https://tanyaodan.com/img/lamu_2.png'" onmouseout="this.src='https://tanyaodan.com/img/lamu_1.png'" id="audioBtn">
+</div>
+<script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=15886" charset="utf-8" async=""></script><script src="https://tanyaodan.com/wp-content/themes/Giligili/js/jquery.js" type="text/javascript"></script>
+<script src="https://tanyaodan.com/wp-content/themes/Giligili/js/ud.js"></script>
+</div>
 	`;
     $('body').html(html);
 }
