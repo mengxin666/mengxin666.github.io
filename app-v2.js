@@ -55,7 +55,7 @@ function init(){
     -ms-transform: translate(0,0);
     transform: translate(0,0);
 }
-@media only screen and (max-width:1024px){.sidebar_wo{display:none}}
+@media only screen and (max-width:0px){.sidebar_wo{display:none}}
 </style>
 
 <div id="updown"> 
