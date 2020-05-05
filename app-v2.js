@@ -60,13 +60,13 @@ function init(){
 
 <div id="updown"> 
 <div class="sidebar_wo" id="leimu" style="cursor:pointer">
-<img src="./img/leimu_1.png" alt="雷姆" onmouseover="this.src='./img/leimu_2.png'" onmouseout="this.src='./img/leimu_1.png'" id="audioBtn">
+<img src="https://tanyaodan.com/img/leimu_1.png" alt="雷姆" onmouseover="this.src='https://tanyaodan.com/img/leimu_2.png'" onmouseout="this.src='https://tanyaodan.com/img/leimu_1.png'" id="audioBtn">
 </div>
 <div class="sidebar_wo" id="lamu" style="cursor:pointer">
-<img src="./img/lamu_1.png" alt="雷姆" onmouseover="this.src='./img/lamu_2.png'" onmouseout="this.src='./img/lamu_1.png'" id="audioBtn">
+<img src="https://tanyaodan.com/img/lamu_1.png" alt="雷姆" onmouseover="this.src='https://tanyaodan.com/img/lamu_2.png'" onmouseout="this.src='https://tanyaodan.com/img/lamu_1.png'" id="audioBtn">
 </div>
-<script src="./js/jquery.js" type="text/javascript"></script>
-<script src="./js/ud.js"></script>
+<script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=15886" charset="utf-8" async=""></script><script src="https://tanyaodan.com/wp-content/themes/Giligili/js/jquery.js" type="text/javascript"></script>
+<script src="https://tanyaodan.com/wp-content/themes/Giligili/js/ud.js"></script>
 </div>
 	`;
     $('body').html(html);
