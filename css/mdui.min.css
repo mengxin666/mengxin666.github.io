@@ -4666,7 +4666,7 @@ body.mdui-locked {
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://go.zgh.workers.dev/GoIndex/file/MaterialIcons-Regular.woff2) format('woff2'), url(https://go.zgh.workers.dev/GoIndex/file/MaterialIcons-Regular.woff) format('woff')
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://mengxin666.github.io/file/MaterialIcons-Regular.woff2) format('woff2'), url(https://mengxin666.github.io/file/MaterialIcons-Regular.woff) format('woff')
 }
 
 .material-icons {
