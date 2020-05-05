@@ -23,7 +23,7 @@ function init(){
     var html = `
     <header class="nav">
 		<div class="navSize">
-			<a href="/"><img class="avatar" src="https://i.loli.net/2020/04/24/wCxMZFtiv6aKmQ1.png"/></a>
+			<a href="/"><img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=2013642315&s=640"/></a>
 			<a class="login" href="https://drive.google.com/" target="_blank">登陆</a>
 		</div>
 	</header>
