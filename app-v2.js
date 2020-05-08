@@ -38,7 +38,7 @@ WIDGET = {
     "aqiSize": 16,
     "weatherIconSize": 24,
     "alertIconSize": "18",
-    "padding": "15px 10px 10px 10px",
+    "padding": "7px 10px 10px 10px",
     "shadow": "1",
     "language": "auto",
     "borderRadius": 5,
