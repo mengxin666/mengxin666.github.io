@@ -37,15 +37,15 @@ WIDGET = {
     "citySize": 16,
     "aqiSize": 16,
     "weatherIconSize": 24,
-    "alertIconSize": 18,
-    "padding": "10px 10px 10px 10px",
+    "alertIconSize": "18",
+    "padding": "15px 10px 10px 10px",
     "shadow": "1",
     "language": "auto",
     "borderRadius": 5,
     "fixed": "false",
     "vertical": "middle",
-    "horizontal": "center",
-    "key": "72c8f07770914e16bdea9e3572811858"
+    "horizontal": "right",
+    "key": "af687c6c2c384e8294d0a938ed65d523"
   }
 }
 </script>
