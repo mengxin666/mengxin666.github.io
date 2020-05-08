@@ -238,6 +238,10 @@ function file(path){
 		return file_video(path);
 	}
 
+	if ("|mpg|mpeg|mkv|rm|rmvb|mov|wmv|asf|ts|flv|".indexOf(`|${ext}|`) >= 0) {
+                return file_video(path);
+        }
+	
 	if("|bmp|jpg|jpeg|png|gif|".indexOf(`|${ext}|`) >= 0){
 		return file_image(path);
 	}
