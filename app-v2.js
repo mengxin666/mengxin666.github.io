@@ -25,22 +25,31 @@ function init(){
 		<div class="navSize">
 			<a href="/"><img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=2013642315&s=640"/></a>
 </br>
-<div class="juzhong">
-			<div id="tp-weather-widget"></br></div>
-  <script>
-    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-    window.SeniverseWeatherWidget('show', {
-      flavor: "slim",
-      location: "WX4FBXXFKE4F",
-      geolocation: true,
-      language: "zh-Hans",
-      unit: "c",
-      theme: "auto",
-      token: "8d842141-ac46-43f7-8ac0-14398f02a562",
-      hover: "enabled",
-      container: "tp-weather-widget"
-    })
-  </script>
+<div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "1034",
+    "background": 5,
+    "tmpColor": "4A4A4A",
+    "tmpSize": 16,
+    "cityColor": "4A4A4A",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "auto",
+    "borderRadius": 5,
+    "fixed": "false",
+    "vertical": "middle",
+    "horizontal": "center",
+    "key": "72c8f07770914e16bdea9e3572811858"
+  }
+}
+</script>
+<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 	</header>
 <div class="mdui-container">
 	<div id="nav" class="mdui-toolbar zgh-item"></div>
