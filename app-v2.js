@@ -57,7 +57,6 @@ function init(){
 }
 @media only screen and (max-width:0px){.sidebar_wo{display:none}}
 </style>
-
 <div id="updown"> 
 <div class="sidebar_wo" id="leimu" style="cursor:pointer">
 <img src="https://tanyaodan.com/img/leimu_1.png" alt="雷姆" onmouseover="this.src='https://tanyaodan.com/img/leimu_2.png'" onmouseout="this.src='https://tanyaodan.com/img/leimu_1.png'" id="audioBtn">
@@ -171,7 +170,7 @@ function list_files(path,files){
         if(item['mimeType'] == 'application/vnd.google-apps.folder'){
             html +=`<li class="mdui-list-item mdui-ripple"><a href="${p}" class="folder">
 	            <div class="mdui-col-xs-12 mdui-col-sm-7 mdui-text-truncate">
-	            <i class="mdui-icon material-icons">&#xe2c7;</i>
+	            <i class="mdui-icon material-icons">folder_open</i>
 	              ${item.name}
 	            </div>
 	            <div class="mdui-col-sm-3 mdui-text-right">${item['modifiedTime']}</div>
@@ -234,10 +233,10 @@ function file(path){
 		return file_code(path);
 	}
 
-	if("|mp4|webm|mkv|flv|rm|rmvb|mov|wmv|asf|ts|".indexOf(`|${ext}|`) >= 0){
+	if("|mp4|webm|mkv|flv|".indexOf(`|${ext}|`) >= 0){
 		return file_video(path);
 	}
-	
+
 	if("|bmp|jpg|jpeg|png|gif|".indexOf(`|${ext}|`) >= 0){
 		return file_image(path);
 	}
@@ -316,7 +315,7 @@ function oCopy(obj){
     target.parentElement.removeChild(target);
 }
 // 文件展示 mp4
-unction file_video(path){
+function file_video(path){
 	var url = window.location.origin + path;
 	var content = `
 <div class="mdui-container-fluid">
