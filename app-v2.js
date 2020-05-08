@@ -25,7 +25,7 @@ function init(){
 		<div class="navSize">
 			<a href="/"><img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=2013642315&s=640"/></a>
 </br>
-			<div align="center" id="tp-weather-widget"></br></div>
+			<div style="juzhong" id="tp-weather-widget"></br></div>
   <script>
     (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
     window.SeniverseWeatherWidget('show', {
@@ -48,6 +48,7 @@ function init(){
 	<div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
 </div>
 <style>
+.juzhong{margin:0px auto; width:500px;}
 .sidebar_wo{position:fixed;line-height:0;bottom:0px;z-index:1;}
 #leimu{left:0;-webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
