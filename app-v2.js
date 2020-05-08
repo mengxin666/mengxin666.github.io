@@ -316,9 +316,9 @@ function oCopy(obj){
     target.parentElement.removeChild(target);
 }
 // 文件展示 mp4
-function file_video(path){
-	var url = window.location.origin + path;
-	let player_items = [
+function file_video(path) {
+  const url = window.location.origin + path;
+  let player_items = [
     {
       text: 'MXPlayer(Free)',
       href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
@@ -349,35 +349,31 @@ function file_video(path){
         <i class="mdui-icon material-icons">&#xe039;</i>外部播放器播放<i class="mdui-icon material-icons">&#xe5cf;</i>
       </button>
       <ul class="mdui-menu" id="player-items">${player_items}</ul>`;
-	const content = `
+
+  const content = `
 <div class="mdui-container-fluid">
 	<br>
-	<div id="dplayer" class="mdui-video-fluid mdui-center">
-	  
-	</div>
-	<br>
+	<video class="mdui-video-fluid mdui-center" preload controls>
+	  <source src="${url}" type="video/mp4">
+	</video>
+	<br>${playBtn}
 	<!-- 固定标签 -->
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">下载地址</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}" onclick="oCopy(this)"/>
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">引用地址</label>
-	  <textarea class="mdui-textfield-input" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" onclick="oCopy(this)"><video><source src="${url}" type="video/mp4"></video></textarea>
+	  <label class="mdui-textfield-label">HTML 引用地址</label>
+	  <textarea class="mdui-textfield-input"><video><source src="${url}" type="video/mp4"></video></textarea>
 	</div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
-	$('#content').html(content);
-  
-	const dp = new DPlayer({
-		container: document.getElementById('dplayer'),
-		video: {
-			url: url
-		}
-	});
-	var info='<br><div class="mdui-te  xtfield"><button onclick="cp(\'' + url + '\')">点击下载</button></div><div class="mdui-textfield"><button onclick="cp(\'<video><source src=\"' + url + '\" type="video/mp4"></video></div>';
-	$('#info').html(info);
+  $('#content').html(content);
+  $('#copy-link').on('click', () => {
+    copyToClipboard(url);
+    mdui.snackbar('已复制到剪切板!');
+  });
 }
 
 //
