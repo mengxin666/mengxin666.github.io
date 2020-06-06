@@ -7,7 +7,7 @@
  */
 // 在head 中 加载 必要静态
 document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">');
-document.write('<link rel="stylesheet" href="//demo.zgh.workers.dev/0:/Go/css/nexmoe.min.css">');
+document.write('<link rel="stylesheet" href="//mengxin666.github.io/demo/nexmoe.min.css">');
 document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>');
 // markdown支持
 document.write('<script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>');
